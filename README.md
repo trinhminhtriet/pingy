@@ -9,7 +9,7 @@
 |_|            |___/ |___/
 ```
 
-🧹 pingy is...
+⚡ Pingy: A fast, concurrent Rust-based ping tool with real-time updates & visual charts! 📊🚀
 
 ## ✨ Features
 
