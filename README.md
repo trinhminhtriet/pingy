@@ -29,7 +29,9 @@ cd pingy
 
 cargo build --release
 
-rm -rf /usr/local/bin/pingy && ln -s ${PWD}/target/release/pingy /usr/local/bin/pingy && which pingy && pingy --version
+rm -rf /usr/local/bin/pingy \
+&& ln -s ${PWD}/target/release/pingy /usr/local/bin/pingy \
+&& which pingy && pingy --version
 ```
 
 Running the below command will globally install the `pingy` binary.
