@@ -1,6 +1,6 @@
 [package]
 name = "pingy"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 description = "Pingy: A fast, concurrent Rust-based ping tool with real-time updates & visual charts!"
 authors = ["Triet Trinh <contact@trinhminhtriet.com>"]
