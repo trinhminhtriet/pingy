@@ -28,7 +28,8 @@ git clone git@github.com:trinhminhtriet/pingy.git
 cd pingy
 
 cargo build --release
-cp ./target/release/pingy /usr/local/bin/
+
+rm -rf /usr/local/bin/pingy && ln -s ${PWD}/target/release/pingy /usr/local/bin/pingy && which pingy && pingy --version
 ```
 
 Running the below command will globally install the `pingy` binary.
