@@ -18,7 +18,7 @@ use tokio::task;
 
 #[derive(Parser, Debug)]
 #[command(
-    version = "v0.1.0",
+    version = "v0.1.4",
     author = "Triet Trinh <https://trinhminhtriet.com/>",
     about = "⚡ Pingy: A fast, concurrent Rust-based ping tool with real-time updates & visual charts!"
 )]

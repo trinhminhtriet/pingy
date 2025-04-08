@@ -7,7 +7,6 @@ VERSION := $(shell git describe --tags)
 default: build
 
 build:
-	rm -rf target
 	cargo build --release
 	ln -sf $(PWD)/target/release/$(NAME) /usr/local/bin/$(NAME)
 	which $(NAME)
