@@ -13,7 +13,7 @@ categories = ["command-line-utilities", "network-programming"]
 readme = "README.md"
 
 [dependencies]
-clap = { version = "4.5.37", features = ["derive"] }
+clap = { version = "4.5.39", features = ["derive"] }
 ratatui = "0.29.0"
 tokio = { version = "1.44.2", features = ["full"] }
 pinger="2.0.0"
