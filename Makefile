@@ -8,7 +8,7 @@ default: build
 
 build:
 	cargo build --release
-	ln -sf $(PWD)/target/release/$(NAME) /usr/local/bin/$(NAME)
+	ln -sf $(PWD)/target/release/$(NAME) $(HOME)/.local/bin/$(NAME)
 	which $(NAME)
 	$(NAME) --version
 
