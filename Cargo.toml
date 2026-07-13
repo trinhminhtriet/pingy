@@ -14,7 +14,7 @@ readme = "README.md"
 
 [dependencies]
 clap = { version = "4.5.56", features = ["derive"] }
-ratatui = "0.29.0"
+ratatui = "0.30.2"
 tokio = { version = "1.49.0", features = ["full"] }
 pinger="2.1.1"
 anyhow="1.0.102"
