@@ -1015,9 +1015,9 @@ checksum = "915a1e146535de9163f3987b8944ed8cf49a18bb0056bcebcdcece385cece4ff"
 
 [[package]]
 name = "pinger"
-version = "2.1.4"
+version = "2.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c4f827510db1a45730de3ca5f6b6dbb9684d4507ba859cd1bc8e6bb1d52661f2"
+checksum = "464daf29b5195bfdf4c951ddf7910df0e7e1236c36107a49c0844b65bc069c92"
 dependencies = [
  "lazy-regex",
  "thiserror 2.0.18",
